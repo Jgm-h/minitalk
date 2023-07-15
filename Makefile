@@ -19,12 +19,6 @@ $(CLIENT):
 	make all -C $(libft)/
 	$(CC) $(CFLAGS)  client.c $(libft_dir)/libft.a -o client
 
-all: all
-
-server: $(SERVER)
-
-client: $(CLIENT)
-
 clean:
 	make clean -C $(libft)/
 	$(RM) $(CLIENT) $(SERVER)

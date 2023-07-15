@@ -6,12 +6,11 @@
 /*   By: jmorcom- <jmorcom-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/19 08:36:03 by jmorcom-          #+#    #+#             */
-/*   Updated: 2022/10/19 10:35:16 by jmorcom-         ###   ########.fr       */
+/*   Updated: 2023/07/15 17:40:59 by jmorcom-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include"libft.h"
-
 
 int	ft_checksep(char str)
 {

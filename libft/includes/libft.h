@@ -6,7 +6,7 @@
 /*   By: jmorcom- <jmorcom-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/25 17:07:22 by jmorcom-          #+#    #+#             */
-/*   Updated: 2023/04/17 13:46:09 by jmorcom-         ###   ########.fr       */
+/*   Updated: 2023/07/15 17:40:43 by jmorcom-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,5 @@ void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstdelone(t_list *lst, void (*del)(void*));
 void	ft_lstclear(t_list **lst, void (*del)(void*));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
-
-
 
 #endif
