@@ -6,7 +6,7 @@
 /*   By: jmorcom- <jmorcom-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/15 17:31:08 by jmorcom-          #+#    #+#             */
-/*   Updated: 2023/07/15 17:39:37 by jmorcom-         ###   ########.fr       */
+/*   Updated: 2023/07/15 17:47:34 by jmorcom-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,9 +38,9 @@ int	check_arg(char *arg)
 	int	i;
 
 	i = 0;
-	while (arg[i]])
+	while (arg[i])
 	{
-		if (arg[i] < 0 || arg[i] > 9)
+		if (arg[i] < '0' || arg[i] > '9')
 			return (1);
 		i++;
 	}
@@ -53,7 +53,7 @@ int	main(int argc, char **argv)
 	int	i;
 
 	i = 0;
-	if (argc != 3 || check(argv[1]))
+	if (argc != 3 || check_arg(argv[1]))
 	{
 		ft_printf("%s", "Invalid arguments!\n");
 		return (1);
